@@ -109,6 +109,8 @@ import {
         });
     };
   
+
+    
     const forgotPassword = (email) => {
       //? Email yoluyla şifre sıfırlama için kullanılan firebase metodu
       sendPasswordResetEmail(auth, email)

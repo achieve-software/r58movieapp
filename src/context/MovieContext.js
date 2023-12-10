@@ -12,7 +12,8 @@ const MovieContextProvider = ({ children }) => {
     getMovies(FEATURED_API);
   }, []);
 
-  const getMovies = (API) => {
+  const getMovies = (API) =>
+   {
     setLoading(true);
     axios
       .get(API)
