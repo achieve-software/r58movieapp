@@ -4,10 +4,15 @@ import avatar from "../assets/icons/avatar.png";
 import { AuthContext } from "../context/AuthContext";
 import Switch from "./Switch";
 
+
+
+
 const Navbar = () => {
   const { currentUser, logOut } = useContext(AuthContext);
-  // const currentUser = { displayName: "felix franko" };
-  // const currentUser = false;
+  
+  
+  //   const currentUser = { displayName: "felix franko" };
+  //   const currentUser = false;
   return (
     <div>
       <nav

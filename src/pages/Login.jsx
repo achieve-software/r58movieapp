@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import GoogleIcon from "../assets/icons/GoogleIcon";
 import { AuthContext } from "../context/AuthContext";
 
+
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
